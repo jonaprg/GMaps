@@ -1,0 +1,42 @@
+{
+    "city" : "Vich",
+    "lat" : 41.930546,
+    "lng" :  2.2519841,
+    "markers": [
+        {
+            "place" : "Catedral",
+            "lat" : 41.9281709,
+            "lng" : 2.2551413,
+            "modal" : [
+                {
+                    "title": "La catedral",
+                    "description": "La catedral de Sant Pere Apòstol o catedral de Vic, enclavada al centre del recinte històric de la ciutat de Vic, és la seu de la diòcesi de Vic. "
+                }
+            ]
+        },
+        {
+            "place" : "Atlantida",
+            "lat" : 41.9284747,
+            "lng" : 2.2596287,
+            "modal" : [
+                {
+                    "title": "Atlantida!!!",
+                    "description": "És una fundació privada de Vic, sense afany de lucre,que gestiona l'Escola de Música de Vic (EMVIC) i el teatre municipal L'Atlàntida.La fundació està dirigida per Lluís Vila i d'Abadal des del seu canvi de nom, el 2009"
+                }
+            ]
+        },
+        {
+            "place" : "La meva casa",
+            "lat" : 41.9225444,
+            "lng" : 2.2529265,
+            "modal" : [
+                {
+                    "title": "Casaaaaaa!",
+                    "description": "Aquí visc jo! A baix de casa meva esta el Bon Àrea"
+                }
+            ]
+        }
+    ]
+
+
+}
