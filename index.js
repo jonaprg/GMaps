@@ -43,7 +43,6 @@ function init(city){
             infowindow.open(map, marker)
         })
         city.markers.forEach(desti => {
-            //console.log(element);
             var origin = new google.maps.LatLng(element.lat, element.lng);
             if(element.place !== desti.place) {
                 var destination = new google.maps.LatLng(desti.lat, desti.lng);
@@ -57,11 +56,11 @@ function init(city){
                 },(response, value) => {
                 
                     document.getElementById("recorreguts").innerHTML += `
-                        <div>
-                            <h4>${response.originAddresses["0"].substring(0, response.originAddresses["0"].indexOf(','))}</h4>
-                            <h4>${response.destinationAddresses["0"].substring(0, response.destinationAddresses["0"].indexOf(','))}</h4>
-                            <h4>${response.rows["0"].elements["0"].distance.text}</h4>
-                            <h4>${response.rows["0"].elements["0"].duration.text}</h4>
+                        <div class="item">
+                            <p>${response.originAddresses["0"].substring(0, response.originAddresses["0"].indexOf(','))}</p>
+                            <p>${response.destinationAddresses["0"].substring(0, response.destinationAddresses["0"].indexOf(','))}</p>
+                            <p>${response.rows["0"].elements["0"].distance.text}</p>
+                            <p>${response.rows["0"].elements["0"].duration.text}</p>
                             <hr>
                         </div>
                     
